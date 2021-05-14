@@ -1,0 +1,117 @@
+/** @format */
+
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: "Courier New", Courier, monospace;
+
+  background-color: #fac9a3;
+  color: #f5f5f5;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.navbar {
+  background-color: #4386e4;
+  border: 1px solid black;
+  width: 100%;
+  height: 7rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+nav {
+  /* border: 2px solid red; */
+  max-width: 100rem;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  display: inline-block;
+  /* padding: 0.5rem 0.7rem; */
+  margin: 1rem 2.5rem;
+
+  font-size: 2.5rem;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.container {
+  /* border: 2px solid black; */
+  max-width: 100rem;
+  width: 100%;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 12rem auto;
+
+  /* opacity: 0; */
+}
+
+.color-name-hex {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.2;
+
+  background-color: #000;
+
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+
+  font-size: 2.5rem;
+  font-weight: 700;
+
+  font-family: "Courier New", Courier, monospace;
+
+  background-color: #f5f5f5;
+  border: 2px solid black;
+  border-radius: 1rem;
+
+  margin-top: 5rem;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #f5f5f5;
+}
