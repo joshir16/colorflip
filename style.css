@@ -91,7 +91,7 @@ nav {
   background-color: #fac9a3;
   color: #000;
   transform: translateY(-2px);
-  box-shadow: 0.5rem 0.7rem black;
+  box-shadow: -0.7rem 0.7rem black;
 }
 /* .item:active {
 } */

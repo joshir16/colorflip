@@ -14,10 +14,14 @@ let colorType = "hex";
 
 hexBtn.addEventListener("click", function () {
   colorType = "hex";
+  color.textContent = "#FAC9A3";
+  document.body.style.backgroundColor = "#FAC9A3";
 });
 
 rgbaBtn.addEventListener("click", function () {
   colorType = "rgba";
+  color.textContent = " rgb(175, 183, 92)";
+  document.body.style.backgroundColor = " rgb(175, 183, 92)";
 });
 
 // -------------------------------------hex function
