@@ -78,7 +78,7 @@ nav {
 
 .item {
   display: inline-block;
-  /* padding: 0.5rem 0.7rem; */
+  padding: 0.5rem 1.2rem;
   margin: 1rem 2.5rem;
 
   font-size: 2.5rem;
@@ -86,6 +86,15 @@ nav {
 
   cursor: pointer;
 }
+
+.item:hover {
+  background-color: #fac9a3;
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0.5rem 0.7rem black;
+}
+/* .item:active {
+} */
 
 .container {
   /* border: 2px solid black; */
@@ -103,8 +112,8 @@ nav {
   /* opacity: 0; */
 }
 
-.color-name-hex {
-  font-size: 5rem;
+.color-name {
+  font-size: 3.75rem;
   font-weight: 700;
   line-height: 1.2;
 
