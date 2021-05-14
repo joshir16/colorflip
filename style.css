@@ -114,9 +114,6 @@ nav {
   border-radius: 1rem;
 }
 
-@media only screen and (max-width: 55em) {
-}
-
 .btn {
   padding: 1rem 2rem;
 
