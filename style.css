@@ -21,10 +21,29 @@ body {
 
   background-color: #fac9a3;
   color: #f5f5f5;
+}
 
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
+@media only screen and (max-width: 55em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+@media only screen and (max-width: 32em) {
+  html {
+    font-size: 30%;
+  }
+}
+@media only screen and (max-width: 25em) {
+  html {
+    font-size: 25%;
+  }
 }
 
 .navbar {
@@ -40,6 +59,7 @@ body {
 .heading {
   font-size: 2.5rem;
   font-weight: 900;
+  margin: 1rem 2.5rem;
 }
 
 nav {
@@ -92,6 +112,9 @@ nav {
 
   padding: 1rem 2rem;
   border-radius: 1rem;
+}
+
+@media only screen and (max-width: 55em) {
 }
 
 .btn {
