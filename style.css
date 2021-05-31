@@ -78,13 +78,17 @@ nav {
 
 .item {
   display: inline-block;
-  padding: 0.5rem 1.2rem;
+  padding: 0rem 1.2rem;
   margin: 1rem 2.5rem;
 
   font-size: 2.5rem;
   font-weight: 700;
+  letter-spacing: 2px;
 
   cursor: pointer;
+  border: 2px solid black;
+
+  transition: all 0.2s ease-in;
 }
 
 .item:hover {
@@ -93,8 +97,13 @@ nav {
   transform: translateY(-2px);
   box-shadow: -0.7rem 0.7rem black;
 }
-/* .item:active {
-} */
+
+.item_active {
+  background-color: #fac9a3;
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: -0.7rem 0.7rem black;
+}
 
 .container {
   /* border: 2px solid black; */

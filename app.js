@@ -65,3 +65,21 @@ btn.addEventListener("click", function () {
     hexC();
   }
 });
+
+/////////////////////////////////////////////////////////////////////
+//----------------------- nav item select ---------------------------
+/////////////////////////////////////////////////////////////////////
+
+hexBtn.addEventListener("click", function () {
+  if (!hexBtn.classList.contains("item_active")) {
+    hexBtn.classList.add("item_active");
+    rgbaBtn.classList.remove("item_active");
+  }
+});
+
+rgbaBtn.addEventListener("click", function () {
+  if (!rgbaBtn.classList.contains("item_active")) {
+    rgbaBtn.classList.add("item_active");
+    hexBtn.classList.remove("item_active");
+  }
+});
